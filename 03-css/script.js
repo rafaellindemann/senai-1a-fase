@@ -1,4 +1,10 @@
 
+function calcularChances(){
+    // alert("Aqui vou calcular as chances das criancinhas...")
+
+    document.getElementById("resultado").innerHTML = "Resultado das chances..."
+}
+
 function calcularPrecoBrique(){
     // INFOS
     let precoCompra, precoVenda
