@@ -9,9 +9,9 @@ function verificarProvisoes(){
     comidaPorMarujo = comida / marujos
     // saidas
     if(marujos >= 10 && comidaPorMarujo >= 1.5){ // ||
-        document.getElementById('resultado').innerHTML = "Provisões suficientes. Rumo ao horizonte!"
+        document.getElementById('resultado').innerHTML = "<br>Provisões suficientes. <br>Rumo ao horizonte!"
     }else{
-        document.getElementById('resultado').innerHTML = "Algo está errado. Posseidom não quer ninguém no mar hoje."
+        document.getElementById('resultado').innerHTML = "<br>Algo está errado. <br>Posseidom não quer ninguém no mar hoje."
     }
     
 }
